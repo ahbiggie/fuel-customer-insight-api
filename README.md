@@ -22,7 +22,7 @@ This project is developed and submitted as a **Capstone Project** requirement.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 * **Runtime Environment:** Node.js
 * **Web Framework:** Express.js (v5.x)
@@ -31,7 +31,7 @@ This project is developed and submitted as a **Capstone Project** requirement.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 fuel-customer-insight-api/
@@ -56,7 +56,7 @@ fuel-customer-insight-api/
 
 ---
 
-## 📥 Getting Started
+## Getting Started
 
 ### Prerequisites
 Make sure you have the following installed on your local machine:
@@ -125,7 +125,3 @@ Make sure you have the following installed on your local machine:
 ### SMS Notifications
 * `POST /api/notifications/sms` - Send custom SMS or run campaign triggers
 
----
-
-## 📜 License
-This project is licensed under the ISC License.
