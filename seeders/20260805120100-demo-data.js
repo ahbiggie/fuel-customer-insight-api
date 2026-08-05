@@ -16,6 +16,9 @@ module.exports = {
         ].map((c) => ({ ...c, createdAt: now, updatedAt: now }));
 
         await queryInterface.bulkInsert('Customers', customers);
+        await queryInterface.sequelize.query(
+            'SELECT setval(pg_get_serial_sequence(\'"Customers"\', \'id\'), (SELECT MAX(id) FROM "Customers"));'
+        );
 
         const purchases = [
             { customerId: 1, productType: 'PMS', fuelVolume: 40, unitPrice: 1125, totalAmount: 45000, paymentMethod: 'card', stationLocation: 'Ikeja Station', purchaseDate: new Date('2026-07-01') },
