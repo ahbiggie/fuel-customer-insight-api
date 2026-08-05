@@ -1,0 +1,24 @@
+{
+  "name": "fuel-customer-insight-api",
+  "version": "1.0.0",
+  "description": "REST API for tracking customer purchase behaviour, loyalty campaigns, and SMS notifications for fuel retail stations.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahbiggie/fuel-customer-insight-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ahbiggie/fuel-customer-insight-api/issues"
+  },
+  "homepage": "https://github.com/ahbiggie/fuel-customer-insight-api#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
